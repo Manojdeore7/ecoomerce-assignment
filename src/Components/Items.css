@@ -1,0 +1,21 @@
+.data .music {
+  font-size: 3rem;
+  text-align: center;
+  padding: 5px;
+  font-family: "cursive";
+  margin-top: 100px;
+}
+.adjust {
+  display: flex;
+  gap: 10px 10px;
+
+  justify-content: space-between;
+}
+.adjust div {
+  width: 30%;
+  height: 10%;
+}
+img {
+  width: 80%;
+  height: 70%;
+}

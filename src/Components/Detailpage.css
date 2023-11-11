@@ -1,0 +1,15 @@
+.car2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  background-color: aqua;
+  align-items: center;
+  margin-left: 40px;
+}
+.car2 div img {
+  width: 70%;
+}
+.car2 div {
+  margin-top: 20px;
+  text-align: justify;
+}

@@ -1,0 +1,43 @@
+.cart {
+  background-color: white;
+}
+.car {
+  position: absolute;
+  margin-top: 100px;
+}
+.car8 {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: aqua;
+  align-items: center;
+  margin-left: 40px;
+}
+.img {
+  height: 90px;
+}
+th,
+td {
+  padding-top: 10px;
+}
+.head {
+  text-align: center;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.car3 {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.car3 button {
+  width: 20%;
+  background-color: yellow;
+  color: black;
+}
+.car3 button:hover {
+  background-color: green;
+}

@@ -1,0 +1,19 @@
+.Itom {
+  align-items: center;
+  padding: 30px;
+
+  border-radius: 20px;
+
+  border: 2px solid red;
+  gap: 10px 10px;
+  text-align: center;
+}
+.Itom div {
+  display: flex;
+
+  margin-top: 15px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
