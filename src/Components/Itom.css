@@ -1,19 +1,31 @@
-.Itom {
-  align-items: center;
-  padding: 30px;
-
-  border-radius: 20px;
-
-  border: 2px solid red;
-  gap: 10px 10px;
-  text-align: center;
+.Itom1 {
+  height: 160px;
+  align-self: stretch;
 }
-.Itom div {
+img {
+  width: 100%;
+}
+.Itom2 {
   display: flex;
-
-  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 0 0;
+  align-self: stretch;
 }
-button:hover {
-  background-color: black;
+
+.Itom2 svg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.Itom2 p {
+  /* Heading/Med */
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
   color: white;
+  font-weight: 500;
+
+  letter-spacing: 0.5px;
 }

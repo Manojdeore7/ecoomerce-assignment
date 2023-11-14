@@ -1,16 +1,33 @@
 .Header {
+  display: flex;
+  width: 1366px;
   padding: 20px;
-  padding-right: 50px;
-  background-color: black;
-  height: 70px;
-  position: fixed;
-  z-index: 10;
-  width: 105%;
-  font-size: 1.5rem;
-  color: white;
+  justify-content: space-between;
+  align-items: center;
 }
-.ram {
-  list-style: none;
-  text-decoration: none;
-  color: azure;
+
+.Header img {
+  width: 72px;
+  height: 36px;
+  flex-shrink: 0;
+}
+/* .Header input {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+} */
+.hi2 {
+  display: inline;
+}
+.Header input {
+  display: flex;
+  width: 216px;
+  height: 32px;
+  padding: 4px 8px;
+  align-items: center;
+  margin-right: 50px;
+  gap: 8px;
+  border-radius: 4px;
+  border: 1px solid var(--White-1, #fff);
+  background: rgba(255, 255, 255, 0);
 }
