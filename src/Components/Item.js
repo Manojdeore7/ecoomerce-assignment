@@ -4,7 +4,7 @@ import { NavLink, Link } from "react-router-dom";
 function Item(props) {
   let str = `${props.id}`;
   return (
-    <div className=" Itom">
+    <div className="Itom">
       <div className="Itom1">
         <NavLink to={props.id}>
           <img src={image} alt="" />
@@ -26,11 +26,9 @@ function Item(props) {
 
         <p>{props.title}</p>
 
-        {/* <h4>{props.director}</h4>
-      <div>
-        <Link to={str} className="btn btn-primary offset-8">
-          view
-        </Link> */}
+        <div className="link">
+          <Link to={str}>:</Link>
+        </div>
       </div>
     </div>
   );
