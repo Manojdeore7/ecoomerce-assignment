@@ -1,14 +1,13 @@
 import { useEffect, useState } from "react";
 import Item from "./Item";
 import axios from "axios";
-import "./Films.css";
-import { useParams } from "react-router-dom/cjs/react-router-dom.min";
+import "./People.css";
 
 function Films() {
   let [productsArr, setUser] = useState([]);
 
   const fetchInfo = async () => {
-    let resp = await fetch(`https://swapi.dev/api/films`);
+    let resp = await fetch(`https://swapi.dev/api/people`);
     let data = await resp.json();
     setUser(data.results);
   };
@@ -18,16 +17,16 @@ function Films() {
   }, []);
   return (
     <div className="row data">
-      <div className="film">Films</div>
+      <div className="film">People</div>
       <div className="adjust">
         {productsArr.map((e, i) => {
           return (
             <Item
-              key={e.episode_id}
-              id={e.episode_id}
-              title={e.title}
-              director={e.director}
-              release_date={e.release_date}
+              key={e.i}
+              id={e.i}
+              title={e.name}
+              director={e.mas}
+              release_date={e.gender}
             />
           );
         })}

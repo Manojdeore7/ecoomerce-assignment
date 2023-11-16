@@ -7,6 +7,7 @@ import Cart from "./Components/Cart";
 import { Switch, Route } from "react-router-dom";
 import Detailpage from "./Components/Detailpage";
 import Films from "./Components/Films";
+import People from "./Components/People";
 function App() {
   return (
     <div className="App">
@@ -15,15 +16,18 @@ function App() {
         <Sidebar />
         <div className="main-content">
           <Switch>
-            <Route path="/Films" exact>
+            <Route path="/films" exact>
               <Films />
+            </Route>
+            <Route path="/people" exact>
+              <People />
             </Route>
             <Route path="/" exact>
               <Cart />
             </Route>
-            <Route path="/:useId">
+            {/* <Route path="/:useId">
               <Detailpage />
-            </Route>
+            </Route> */}
           </Switch>
         </div>
       </div>

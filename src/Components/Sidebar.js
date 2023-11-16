@@ -18,7 +18,7 @@ function Sidebar() {
           />
         </svg>
         <p>
-          <Link to="/Films">Films</Link>
+          <Link to="/films">Films</Link>
         </p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ function Sidebar() {
           />
         </svg>
         <p>
-          <Link to="/People">People</Link>
+          <Link to="/people">People</Link>
         </p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@ function Sidebar() {
           />
         </svg>
         <p>
-          <Link to="/Planets">Planets</Link>
+          <Link to="/planets">Planets</Link>
         </p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -105,7 +105,7 @@ function Sidebar() {
           />
         </svg>
         <p>
-          <Link to="/Species">Species</Link>
+          <Link to="/species">Species</Link>
         </p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -134,7 +134,7 @@ function Sidebar() {
           />
         </svg>
         <p>
-          <Link to="/Starships">Starships</Link>
+          <Link to="/starships">Starships</Link>
         </p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -163,7 +163,7 @@ function Sidebar() {
           />
         </svg>
         <p>
-          <Link to="/Vehicles">Vehicles</Link>
+          <Link to="/vehicles">Vehicles</Link>
         </p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
