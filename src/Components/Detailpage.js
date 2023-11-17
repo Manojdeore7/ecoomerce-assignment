@@ -20,7 +20,7 @@ function Detailpage(props) {
   };
   useEffect(() => {
     fetchInfo();
-  }, useId);
+  }, [useId]);
 
   return (
     <div className="container cart car">
