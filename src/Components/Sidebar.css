@@ -1,0 +1,42 @@
+.sidebar {
+  width: 223px;
+  height: 576px;
+  padding: 10px 14px 10px 16px;
+
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.child {
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  flex: 1 0 0;
+}
+.sidebar div p {
+  flex: 1 0 0;
+  display: flex;
+  align-items: center;
+
+  padding-top: 0px;
+  padding-left: 10px;
+}
+
+.sidebar div p a {
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  color: var(--White-1, var(--White, #fff));
+  font-feature-settings: "clig" off, "liga" off;
+}
+svg {
+  width: 18px;
+  height: 18px;
+}

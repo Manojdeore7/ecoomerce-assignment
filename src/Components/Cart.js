@@ -2,28 +2,15 @@ import "./Cart.css";
 
 function Cart(props) {
   return (
-    <div className="container cart car">
+    <div className="dashboard">
       <div>
-        <h1>Shopping Cart</h1>
-      </div>
-      <div className="car8">
-        <div>
-          <img
-            className="img"
-            src="https://i.dummyjson.com/data/products/30/1.jpg"
-          ></img>
-        </div>
-        <div>Key Holder</div>
-        <div>
-          <input></input>
-        </div>
-        <div>$499.00</div>
-        <div className="col-2">
-          <button className="btn btn-danger">Remove</button>
-        </div>
-      </div>
-      <div className="car3">
-        <button className="btn ">Procide To Pay</button>
+        <p className="img"></p>
+        <p className="heading">Welcome to Star Wars Dashboard</p>
+        <p className="subheading">
+          Star Wars is an American epic space opera multimedia franchise created
+          by George Lucas, which began with the eponymous 1977 film and quickly
+          became a worldwide pop culture phenomenon.
+        </p>
       </div>
     </div>
   );

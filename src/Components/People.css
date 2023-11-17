@@ -1,0 +1,29 @@
+.film {
+  display: flex;
+  width: 1143px;
+  padding: 12px 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  color: white;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin-top: 20px;
+}
+.adjust {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 200px 200px;
+
+  gap: 20px 20px;
+}
+
+.adjust button {
+  background-color: #03123d;
+  color: white;
+  border: solid #03123d 1px;
+}

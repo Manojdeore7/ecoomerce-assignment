@@ -1,43 +1,52 @@
-.cart {
-  background-color: white;
+.dashboard {
+  display: flex;
+  width: 1143px;
+  flex-direction: column;
+  align-items: center;
 }
-.car {
-  position: absolute;
+.dashboard div {
+  display: flex;
+  width: 695px;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  border-radius: 12px;
+  border: 2px solid #e0e6ed;
+  background: var(--White, #fff);
+  box-shadow: 0px 7px 34px 0px rgba(23, 23, 37, 0.25);
   margin-top: 100px;
 }
-.car8 {
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  background-color: aqua;
-  align-items: center;
-  margin-left: 40px;
-}
-.img {
-  height: 90px;
-}
-th,
-td {
-  padding-top: 10px;
-}
-.head {
-  text-align: center;
-  font-size: 2rem;
-  padding: 10px;
-}
+.dashboard .img {
+  width: 647px;
+  height: 218px;
+  border-radius: 8px;
+  background: url("https://s3-alpha-sig.figma.com/img/c2ff/3354/2bbabce30cc9a3bf8774f83b4b45661e?Expires=1701043200&Signature=HXv0c4D55N~nvfMxRM~pHTK8gD7Zt2BUEXRayCbtn9VEcHha3O19eyJ3ovt8qrRIviLEKbT4vMeFq44dFMyi6iQFpxeHDNlYLAyqFO7WbmzXYmwoOzKZauIlwcjgFWQ5BUaet3JAG3Pz09sxleH5NN0ethyOEuc88Up27GqlB8ZLFrx~s7eziaqnEmAwVQrHcTc1-T4sMkYI2jVmj2NXHkGrIcC9tVQeOQByM6KsMqq~HJdQvgbUJLxzMrSyGULFSOtckkR0RRBqxHXN4PYIy4hltUyJlOJaKZsZYPzmAsORPVxO7TIjo1FLfL395UZ-rBABPj7FB1C5jLsrZ-f8cg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
 
-.car3 {
-  display: flex;
-  align-items: center;
-  margin-left: 40px;
-  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: lightgray;
 }
-.car3 button {
-  width: 20%;
-  background-color: yellow;
-  color: black;
+.heading {
+  color: #3b3f5c;
+  align-self: stretch;
+  font-family: Open Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 109.091% */
+  letter-spacing: 0.14px;
+  text-align: start;
 }
-.car3 button:hover {
-  background-color: green;
+.subheading {
+  color: #3b3f5c;
+  text-align: start;
+  opacity: 0.8;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.14px;
+  align-self: stretch;
 }
