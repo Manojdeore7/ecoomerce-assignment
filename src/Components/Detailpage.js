@@ -13,14 +13,15 @@ function Detailpage(props) {
     description: "",
   });
 
-  const fetchInfo = () => {
+ 
+  useEffect(() => {
+     const fetchInfo = () => {
     return axios
       .get("https://dummyjson.com/products")
       .then((response) => setData(response.data.products[useId]));
   };
-  useEffect(() => {
     fetchInfo();
-  }, [useId,()=>{fetchInfo}]);
+  }, [useId]);
 
   return (
     <div className="container cart car">
