@@ -4,24 +4,24 @@ import { Link } from "react-router-dom";
 function Header(props) {
   return (
     <div className="row Header ">
-      <div className="col-6 col-6">
-        <Link className="ram" to="/">
-          E_com
+      <div className="col-2 ">
+        <Link className=" ram1 ram" to="/">
+          E_buy
         </Link>
       </div>
-      <div className="col-1 ">
+      <div className="col-6 ">
         <Link className="ram" to="/">
           Store
         </Link>
       </div>
 
-      <div div className="col-1 ram">
-        <p>Login</p>
+      <div className="col-2 ram3 ">
+        <Link className="ram">Login</Link>
       </div>
 
-      <div div className="col-1">
+      <div className="col-1  ">
         <Link className="ram" to="/cart">
-          Cart
+          Cart(1)
         </Link>
       </div>
     </div>

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Item from "./Item";
 import axios from "axios";
 import "./Items.css";
-// const productsArr = [
+
 //   {
 //     title: "Colors",
 
@@ -50,6 +50,7 @@ function Items() {
   return (
     <div className="row data">
       <div className="col-12 music">Products</div>
+
       <div className="row row-cols-2 adjust">
         {productsArr.map((e, i) => {
           return (

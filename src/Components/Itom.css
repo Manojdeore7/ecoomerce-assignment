@@ -4,7 +4,6 @@
 
   border-radius: 20px;
 
-  border: 2px solid red;
   gap: 10px 10px;
   text-align: center;
 }
@@ -13,7 +12,22 @@
 
   margin-top: 15px;
 }
-button:hover {
+.Itom div button,
+a {
+  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.07);
+  color: black;
+}
+.Itom div a {
+  border: solid 1px black;
+}
+.Itom div button {
+  border: solid 1px black;
+}
+.Itom div button:hover {
+  background-color: black;
+  color: white;
+}
+.Itom div a:hover {
   background-color: black;
   color: white;
 }

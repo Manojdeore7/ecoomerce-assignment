@@ -8,14 +8,14 @@ function Item(props) {
       <NavLink to={props.id}>
         <img src={props.image} alt="" />
       </NavLink>
-      <h4>{props.title}</h4>
-      <h4>{`$${props.price}`}</h4>
+      <h5>{props.title}</h5>
+      <h5>{`$${props.price}`}</h5>
       <div>
-        <Link to={str} className="btn btn-primary offset-8">
+        <Link to={str} className="btn offset-1">
           view
         </Link>
 
-        <button className="btn btn-primary offset-10">AddToCart </button>
+        <button className="btn  offset-3">AddToCart </button>
       </div>
     </div>
   );
