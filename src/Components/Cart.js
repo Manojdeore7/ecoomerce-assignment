@@ -11,6 +11,7 @@ function Cart(props) {
           <img
             className="img"
             src="https://i.dummyjson.com/data/products/30/1.jpg"
+              alt="Items"
           ></img>
         </div>
         <div>Key Holder</div>
