@@ -20,7 +20,7 @@ function Detailpage(props) {
   };
   useEffect(() => {
     fetchInfo();
-  }, [useId]);
+  }, [useId,fetchInfo]);
 
   return (
     <div className="container cart car">
@@ -29,7 +29,7 @@ function Detailpage(props) {
       </div>
       <div className="car2">
         <div>
-          <img src={data.images[0]}></img>
+          <img src={data.images[0]} alt="image"></img>
         </div>
         <div>
           <div style={{ fontSize: "25px", color: "black" }}>{data.title}</div>
